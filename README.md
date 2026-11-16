@@ -23,7 +23,7 @@ My 2024 gaming PC build with my cousin, from planning and assembly to setup and 
 |---|---|
 | CPU | AMD Ryzen 7 7800X3D (8 cores, 3D V-Cache) |
 | Motherboard | ASUS TUF Gaming (AM5 socket) |
-| GPU | NVIDIA GeForce RTX 4070 |
+| GPU | MSI GeForce RTX 5070 Ventus 3X 12 GB |
 | RAM | 32 GB DDR5 6000 MHz |
 | Storage | 1 TB NVMe SSD (OS and games) + 2 TB HDD (bulk storage) |
 | Power supply | Corsair RM850x 850 W 80+ Gold |
@@ -38,7 +38,7 @@ Before buying, we checked that the parts would work together:
 
 - **CPU socket and chipset:** the CPU and motherboard both use the AM5 socket, and the board supports DDR5.
 - **RAM:** DDR5 at 6000 MHz, a good speed for AM5, enabled through the EXPO profile in BIOS.
-- **Power:** an RTX 4070 system draws well under 850 W, leaving headroom for upgrades.
+- **Power:** an RTX 5070 system draws well under 850 W, leaving headroom for upgrades.
 - **Clearance:** the NH-D15 is a very tall cooler, so we checked it against the H510's maximum CPU cooler height (165 mm), and checked GPU length against the case.
 - **Storage:** confirmed the motherboard has an M.2 slot for the NVMe SSD and SATA ports for the HDD.
 
@@ -52,7 +52,7 @@ Before buying, we checked that the parts would work together:
 4. **Case prep:** installed the I/O shield (if not built-in) and checked the motherboard standoffs.
 5. **Mount the motherboard** in the case and screw it in.
 6. **PSU:** installed the RM850x and routed the 24-pin, CPU 8-pin and PCIe power cables.
-7. **GPU:** fitted the RTX 4070 in the top PCIe x16 slot and connected its power.
+7. **GPU:** fitted the RTX 5070 in the top PCIe x16 slot and connected its power.
 8. **HDD:** mounted the 2 TB drive and connected SATA data and power.
 9. **Front panel:** connected power switch, USB and audio headers.
 10. **Cable management:** tidied cables for airflow, then did a first power-on test before closing the case.
@@ -122,4 +122,4 @@ After installing the GPU, the PC would not power on at all: no fans, no lights.
 
 ---
 
-*Author: [ArcSkt1](https://github.com/ArcSkt1) · CompTIA A+ · CompTIA Network+*
+*Author: [nachtlos1](https://github.com/nachtlos1) · CompTIA A+ · CompTIA Network+*
