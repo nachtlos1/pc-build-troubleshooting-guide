@@ -38,7 +38,7 @@ Before buying, we checked that the parts would work together:
 
 - **CPU socket and chipset:** the CPU and motherboard both use the AM5 socket, and the board supports DDR5.
 - **RAM:** DDR5 at 6000 MHz, a good speed for AM5, enabled through the EXPO profile in BIOS.
-- **Power:** an RTX 5070 system draws well under 850 W, leaving headroom for upgrades.
+- **Power:** the RTX 5070 Ventus 3X is rated at 250 W and MSI recommends a 650 W PSU, so the 850 W RM850x leaves plenty of headroom. The card takes a single **16-pin (12V-2x6)** power connector.
 - **Clearance:** the NH-D15 is a very tall cooler, so we checked it against the H510's maximum CPU cooler height (165 mm), and checked GPU length against the case.
 - **Storage:** confirmed the motherboard has an M.2 slot for the NVMe SSD and SATA ports for the HDD.
 
@@ -51,8 +51,8 @@ Before buying, we checked that the parts would work together:
 3. **Cooler:** applied thermal paste and mounted the NH-D15, then connected the fan to the CPU_FAN header.
 4. **Case prep:** installed the I/O shield (if not built-in) and checked the motherboard standoffs.
 5. **Mount the motherboard** in the case and screw it in.
-6. **PSU:** installed the RM850x and routed the 24-pin, CPU 8-pin and PCIe power cables.
-7. **GPU:** fitted the RTX 5070 in the top PCIe x16 slot and connected its power.
+6. **PSU:** installed the RM850x and routed the 24-pin, CPU 8-pin and the GPU's 16-pin (12V-2x6) power cable.
+7. **GPU:** fitted the RTX 5070 in the top PCIe x16 slot and connected the 16-pin power cable, making sure it was pushed in fully with no gap and not bent sharply near the plug.
 8. **HDD:** mounted the 2 TB drive and connected SATA data and power.
 9. **Front panel:** connected power switch, USB and audio headers.
 10. **Cable management:** tidied cables for airflow, then did a first power-on test before closing the case.
@@ -97,6 +97,7 @@ After installing the GPU, the PC would not power on at all: no fans, no lights.
 | Symptom | Check first | Then |
 |---|---|---|
 | No power at all | Wall socket, PSU switch, 24-pin and CPU 8-pin cables, front-panel power header | Test with a known-good PSU |
+| GPU underperforming or unstable | 16-pin power cable not fully seated, or bent too close to the plug | Power off, reseat the 16-pin cable until fully clicked in, and route it without a sharp bend |
 | Fans spin but no display | Monitor plugged into the **GPU** (not the motherboard), GPU power cables | Re-seat RAM and GPU, check motherboard debug LEDs |
 | Long first boot on AM5 | Normal: DDR5 memory training can take a few minutes | Wait before assuming a fault |
 | RAM not at rated speed | EXPO/XMP disabled | Enable EXPO in BIOS |
